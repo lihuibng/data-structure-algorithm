@@ -33,7 +33,6 @@ No
 Yes
 */
 
-
 struct UnionFind
 {
     std::vector<int> nodes;

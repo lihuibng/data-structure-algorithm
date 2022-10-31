@@ -32,7 +32,6 @@
 1 1
 */
 
-
 std::vector<int> sumToTarget(const std::vector<int> &c1, const std::vector<int> &c2, int k)
 {
     for (int i = 0, j = c2.size() - 1; i < c1.size(); i++)

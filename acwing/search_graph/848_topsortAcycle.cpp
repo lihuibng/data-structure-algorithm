@@ -32,11 +32,11 @@
 */
 
 bool topsort(const std::vector<std::set<int>> &arr,
-         std::vector<int> &visited,
-         std::vector<int> &indegrees,
-         std::vector<int> &path,
-         std::vector<int> &starts,
-         int num)
+             std::vector<int> &visited,
+             std::vector<int> &indegrees,
+             std::vector<int> &path,
+             std::vector<int> &starts,
+             int num)
 {
     std::queue<int> q;
     for (auto &k : starts)

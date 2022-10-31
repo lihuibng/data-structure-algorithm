@@ -23,7 +23,6 @@
 -1 3 -1 2 2
 */
 
-
 std::vector<int> monotoneStack(const std::vector<int> &arr)
 {
     std::stack<int> st;

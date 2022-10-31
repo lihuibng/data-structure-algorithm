@@ -33,7 +33,6 @@ Q ab
 1
 */
 
-
 struct Node
 {
     bool is_word;

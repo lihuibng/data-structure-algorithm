@@ -22,7 +22,6 @@
 1 2 3
 */
 
-
 void down(std::vector<int> &arr, int u, int size)
 {
     int t = u;

@@ -46,7 +46,8 @@ struct Edge
         return weight < e.weight;
     }
 };
-bool cmp(const Edge& a, const Edge& b) {
+bool cmp(const Edge &a, const Edge &b)
+{
     return a.weight < b.weight;
 }
 

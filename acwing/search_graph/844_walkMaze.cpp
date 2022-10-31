@@ -34,9 +34,9 @@
 */
 
 int walkMaze(const std::vector<std::string> &res,
-        std::vector<std::vector<int>> &dist,
-        int m,
-        int n)
+             std::vector<std::vector<int>> &dist,
+             int m,
+             int n)
 {
     dist[0][0] = 0;
     int dx[] = {-1, 0, 1, 0};

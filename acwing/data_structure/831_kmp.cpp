@@ -33,7 +33,6 @@ ababa
 0 2
 */
 
-
 std::vector<int> kmp(const std::string &s, const std::string &b)
 {
     std::vector<int> next(b.size() + 1, 0);

@@ -19,7 +19,6 @@
 35
 */
 
-
 std::vector<int> add(const std::vector<int> &a, const std::vector<int> &b)
 {
     std::vector<int> c;

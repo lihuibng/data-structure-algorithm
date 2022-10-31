@@ -31,7 +31,6 @@
 Yes
 */
 
-
 bool subSeqCheck(const std::vector<int> &c1, const std::vector<int> &c2)
 {
     int i = 0, j = 0;
