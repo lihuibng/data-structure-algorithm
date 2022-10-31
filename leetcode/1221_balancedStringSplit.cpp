@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+using namespace std;
 
 /*
 1221. 分割平衡字符串
@@ -10,8 +11,6 @@
 注意：分割得到的每个字符串都必须是平衡字符串，且分割得到的平衡字符串是原平衡字符串的连续子串。
 
 返回可以通过分割得到的平衡字符串的 最大数量 。
-
-
 
 示例 1：
 
@@ -45,7 +44,7 @@ s 是一个 平衡 字符串
 class Solution
 {
 public:
-    int balancedStringSplit(std::string s)
+    int balancedStringSplit(string s)
     {
         short d = 0;
         short ans = 0;
@@ -62,8 +61,8 @@ public:
 int main(int argc, char **argv)
 {
     Solution s;
-    const std::string str = "RLRRLLRLRL";
-    std::cout << s.balancedStringSplit(str) << std::endl;
+    const string str = "RLRRLLRLRL";
+    cout << s.balancedStringSplit(str) << endl;
 
     return 0;
 }
