@@ -73,7 +73,7 @@ public:
     }
 };
 
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
     Solution s;
     vector<vector<int>> increase = {{2, 8, 4}, {2, 5, 0}, {10, 9, 8}};

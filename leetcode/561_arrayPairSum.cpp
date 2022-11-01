@@ -49,7 +49,7 @@ public:
     }
 };
 
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
     Solution s;
     vector<int> arr1 = {1, 4, 3, 2};

@@ -37,7 +37,7 @@ public:
     }
 };
 
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
     Solution s;
     int a = 1, b = 2;
