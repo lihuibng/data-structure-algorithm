@@ -1,4 +1,4 @@
-# Data Structure & Algorithm #
+# data structure & algorithm #
 ###  Website ###
   - acwing : https://www.acwing.com 
   - leetcode : https://leetcode.cn
